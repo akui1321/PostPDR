@@ -26,12 +26,13 @@ PostPDR is a MATLAB-based project designed to implement Pedestrian Dead Reckonin
 
 1. Open MATLAB.
 2. Add the project directory to the MATLAB path:
-   ```addpath('path_to_PostPDR')
+   ```matlab
+   addpath('path_to_PostPDR')
 3. Run the main script or function to start processing IMU data.
 
 ## Project Structure
 - Cnb.m: Function for coordinate transformation.
-- PSR.m: Function for position estimation.
+- PSR.m: Entry point of the application.
 - att2q.m: Function for attitude to quaternion conversion.
 - detectFoot.m: Function for footstep detection.
 - estInitHead.m: Function for initial heading estimation.
